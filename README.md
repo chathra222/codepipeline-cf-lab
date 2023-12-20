@@ -19,7 +19,7 @@ zip -r wordpress-single-instance.zip source
 ```
 
 ```bash
-aws s3 cp wordpress-single-instance.zip s3://code-pipeline-source-bucket-chathra --region ap-southeast-1
+aws s3 cp wordpress-single-instance.zip s3://code-pipeline-source-bucket-001 --region ap-southeast-1
 ```
 ## 3. Deploy basic-pipeline.yml file to create the pipeline using Cloudformation template
 

@@ -3,6 +3,6 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: code-pipeline-source-bucket-chathra
+      BucketName: code-pipeline-source-bucket-001
       VersioningConfiguration:
         Status: Enabled

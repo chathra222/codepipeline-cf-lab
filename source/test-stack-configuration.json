@@ -4,6 +4,6 @@
         "DBPassword": "TestDBRootPassword",
         "DBRootPassword": "TestDBRootPassword",
         "DBUser": "TestDBuser",
-        "KeyName": "chathra-sctp"
+        "KeyName": "chathra-sltc"
     }
 }

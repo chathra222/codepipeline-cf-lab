@@ -246,7 +246,7 @@ Resources:
             /tmp/create-wp-config:
               content: !Sub |
                 #!/bin/bash -xe
-                yum update
+                yum update -y
                 amazon-linux-extras enable php8.0
                 yum install php php-cli php-pdo php-fpm php-json php-mysqlnd -y
                 cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
